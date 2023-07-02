@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>H2H_MILESTONE_3</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form action="DisplayServlet" method = "get" >
+    	<h1>Display Data</h1>
+        <input type="submit" value="Show" class="btn">
+    
+    </form>
+    <form action="CreateInvoice" method="get">
+        <h1>Create Invoice</h1>
+
+        Customer Order Id :
+        <input type="number" id="customer_order_id" name="customer_order_id" required>
+
+        Sales Org:
+        <input type="number" id="sales_org" name="sales_org" required>
+
+        Distribution Channel:
+        <input type="text" id="distribution_channel" name="distribution_channel" required>
+        
+        Division:
+        <input type="text" id="division" name="division" required>
+
+        Released Credit Value:
+        <input type="number" step="0.01" id="released_credit_value" name="released_credit_value" required>
+
+        Purchase Order Type:
+        <input type="text" id="purchase_order_type" name="purchase_order_type" required>
+
+        Company Code:
+        <input type="number" id="company_code" name="company_code" required>
+
+        Order Creation Date:
+        <input type="text" id="order_creation_date" name="order_creation_date" required>
+
+        Order Creation Time:
+        <input type="text" id="order_creation_time" name="order_creation_time" required>
+
+        Credit Control Area:
+        <input type="text" id="credit_control_area" name="credit_control_area" required>
+
+        Sold To Party:
+        <input type="number" id="sold_to_party" name="sold_to_party" required>
+
+        Order Amount:
+        <input type="number" step="0.01" id="order_amount" name="order_amount" required>
+
+        Requested Delivery Date:
+        <input type="text" id="requested_delivery_date" name="requested_delivery_date" required>
+
+        Order Currency:
+        <input type="text" id="order_currency" name="order_currency" required>
+
+        Credit Status:
+        <input type="text" id="credit_status" name="credit_status" required>
+
+        Customer Number:
+        <input type="number" id="customer_number" name="customer_number" required>
+
+        Amount in USD:
+        <input type="number" step="0.01" id="amount_in_usd" name="amount_in_usd" required>
+
+        Unique Customer ID:
+        <input type="text" id="unique_cust_id" name="unique_cust_id" required><br>
+
+        <input type="submit" value="Submit" class="btn">
+    </form>
+    <form action="UpdateInvoice" method="get">
+        <h1>Updatae Invoice</h1>
+        Id : 
+        <input type="text" name="idUp"><br>
+        Division : 
+        <input type="radio" name="divisionUp" value="South-Region">South-Region
+        <input type="radio" name="divisionUp" value="North-Region">North-Region<br>
+        <input type="submit" value="Update" class="btn">
+    </form>
+    <form action="DeleteInvoice" method="get">
+        <h1>Delete Invoice by Id</h1>
+        Id : 
+        <input type="text" name="idDel"><br>
+        <input type="submit" value=" Delete " class="btn">
+    </form>
+
+</body>
+
+</html>

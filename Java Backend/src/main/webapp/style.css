@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+input {
+  margin: 2px;
+}
+.btn {
+  font-weight: bold;
+  padding: 5px;
+  background-color: #4caf50; /* Green */
+  color: white;
+  font-size: medium;
+  border: 2px solid #4caf50;
+  border-radius: 25px;
+  margin: 10px;
+}
+

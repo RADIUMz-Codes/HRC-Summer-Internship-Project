@@ -1,0 +1,8 @@
+.tf{
+    background-color: white;
+    border-radius: 8px;
+
+}
+.tf > *{
+    padding :2px;
+}

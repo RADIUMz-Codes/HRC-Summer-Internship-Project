@@ -1,0 +1,13 @@
+
+.MuiDataGrid-root.dg{
+    color: white;
+    background-color: #6b6b6b;
+}
+
+.MuiDataGrid-root.dg .MuiDataGrid-root.dg{
+    border-bottom: 2px solid;
+}
+
+.tfEdit{
+    margin: 10px;
+}
